@@ -3,7 +3,7 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/alkaserGG/GIT-DORKER?style=social) ![GitHub license](https://img.shields.io/github/license/alkaserGG/GIT-DORKER) ![Python version](https://img.shields.io/badge/python-3.7+-blue)[![Facebook](https://img.shields.io/badge/Facebook-Abdo%20Alkaser-1877F2?style=flat&logo=facebook)](https://www.facebook.com/abdo.alkaser.5)
 
-
+```
   ██████╗ ██╗████████╗██████╗  ██████╗ ██████╗ ██╗  ██╗███████╗██████╗                                                                                                                             
  ██╔════╝ ██║╚══██╔══╝██╔══██╗██╔═══██╗██╔══██╗██║ ██╔╝██╔════╝██╔══██╗                                                                                                                            
  ██║  ███╗██║   ██║   ██║  ██║██║   ██║██████╔╝█████╔╝ █████╗  ██████╔╝                                                                                                                            
@@ -14,7 +14,7 @@
               ─────────  E L I T E   E D I T I O N  ─────────                                                                                                                                      
         GitHub Secret Reconnaissance via Official REST API v3                                                                                                                                      
    ⚠  Authorized security assessments only — use responsibly.                                                                                                                                      
-                                                               
+ ```                                
 
 ---
 
