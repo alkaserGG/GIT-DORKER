@@ -21,10 +21,6 @@ authorizationToken
 credentials
 private_key
 encryption_key
------BEGIN RSA PRIVATE KEY-----
------BEGIN OPENSSH PRIVATE KEY-----
------BEGIN EC PRIVATE KEY-----
------BEGIN PGP PRIVATE KEY BLOCK-----
 DB_PASSWORD=
 DB_USER=
 DB_HOST=
