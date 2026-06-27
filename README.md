@@ -19,15 +19,15 @@ A high-performance GitHub reconnaissance tool for professional security assessme
 ```
 
 ---
-
+```
 ## 🧠 How It Works
 - Sends dork queries to `api.github.com/search/code` and reads the `total_count` field.
 - Completely **skips** dorks that return zero results – zero terminal noise.
 - When hits are found, prints a green banner + a clickable browser URL.
 - Includes an intelligent retry engine for seamless rate-limit handling.
-
+```
 ---
-
+```
 ## ✨ Key Features
 - **Zero-Noise Engine**: Only displays dorks that actually return results.
 - **Smart Retry Logic**: Automatically pauses for 75s on secondary rate limits (403/429) and resumes from the exact same dork.
@@ -35,16 +35,16 @@ A high-performance GitHub reconnaissance tool for professional security assessme
 - **WAF-Proof**: Uses realistic browser User-Agent strings to blend in.
 - **Clickable Browser URLs**: Every hit generates a direct GitHub search link for immediate manual inspection.
 - **Compatible with any dorks list**: Use your own keyword files (e.g., Jhaddix's list, or the one provided).
-
+```
 ---
-
+```
 ## 📦 Prerequisites
 - Python 3.7+
 - A GitHub Personal Access Token (classic, no scopes required).
 - A text file containing your dorks (one per line).
-
+```
 ---
-
+```
 ## ⚙️ Installation
 
 git clone https://github.com/yourusername/GitDorker-Elite.git
@@ -53,12 +53,12 @@ pip install requests colorama python-dotenv
 ```
 
 ---
-
+```
 ## 🚀 Usage
 
 python gitdorker_elite.py -d target.com -k dorks.txt -t YOUR_GITHUB_TOKEN
 ```
-
+```
 ### Full Options:
 | Flag | Description |
 |------|-------------|
@@ -66,7 +66,8 @@ python gitdorker_elite.py -d target.com -k dorks.txt -t YOUR_GITHUB_TOKEN
 | `-k`, `--dorks` | Path to the dorks file (one dork per line) |
 | `-t`, `--token` | GitHub Personal Access Token (can also be set in `.env`) |
 | `-o`, `--output` | Output filename (default: `<domain>_hits.txt`) |
-
+```
+```
 ### Examples:
 
 # Basic scan
@@ -77,15 +78,15 @@ python gitdorker_elite.py -d example.com -k dorks.txt -t ghp_xxxx -o results.txt
 
 # Using .env file (create a .env containing GITHUB_TOKEN=ghp_xxxx)
 python gitdorker_elite.py -d example.com -k dorks.txt
+
 ```
-
 ---
-
+```
 ## 🛡️ Token Setup
 1. Go to [GitHub Settings → Developer settings → Personal access tokens → Tokens (classic)](https://github.com/settings/tokens/new).
 2. Generate a new token with **no scopes**.
 3. Copy the token and use it with `-t` or place it in your `.env` file as `GITHUB_TOKEN`.
-
+```
 ---
 
 ## 📂 Project Structure
@@ -98,16 +99,15 @@ GitDorker-Elite/
 ```
 
 ---
-
+```
 ## ⚖️ Legal Notice
 This tool is intended **exclusively for authorized security assessments** (domains you own or have explicit written permission to test). Unauthorized use may violate local and international computer fraud laws. The author assumes no liability for misuse.
-
+```
 ---
-
+```
 ## 🤝 Contributing
 Pull requests and issues are welcome! Let's make this tool even better.
-
+```
 ---
 
-**Made with ❤️ for the Bug Bounty Community**
-كده جاهز، والتنسيق مظبوط. لو عايز تعدل حاجة تاني قلي.
+Made with ❤️ for the Bug Bounty Community
