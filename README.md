@@ -15,7 +15,6 @@
         GitHub Secret Reconnaissance via Official REST API v3                                                                                                                                      
    ⚠  Authorized security assessments only — use responsibly.                                                                                                                                      
                                                                
-```
 
 ---
 
