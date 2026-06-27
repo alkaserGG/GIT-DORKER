@@ -244,4 +244,3 @@ git checkout -b feature/my-improvement
 ---
 
 _Made with ❤️ for the Bug Bounty Community._
-```
