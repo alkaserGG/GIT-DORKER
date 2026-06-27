@@ -82,7 +82,7 @@
 sudo apt update && sudo apt install -y python3 python3-pip git
 
 # Clone the repository
-git clone https://github.com/yourusername/GIT-DORKER.git
+git clone https://github.com/alkaserGG/GIT-DORKER.git
 cd GIT-DORKER
 
 # Install Python requirements
@@ -95,7 +95,7 @@ pip3 install -r requirements.txt
 # Install Python 3 from python.org (tick "Add Python to PATH")
 # Open PowerShell or Command Prompt
 
-git clone https://github.com/yourusername/GIT-DORKER.git
+git clone https://github.com/alkaserGG/GIT-DORKER.git
 cd GIT-DORKER
 pip install -r requirements.txt
 ```
@@ -106,7 +106,7 @@ pip install -r requirements.txt
 # Using Homebrew
 brew install python3 git
 
-git clone https://github.com/yourusername/GIT-DORKER.git
+git clone https://github.com/alkaserGG/GIT-DORKER.git
 cd GIT-DORKER
 pip3 install -r requirements.txt
 ```
@@ -225,7 +225,7 @@ python gitdorker_elite.py -d target.com -k dorks.txt -t $GH_TOKEN | grep HIT >> 
 
 ## 📄 License
 
-MIT © 2025 — Your Name  
+MIT © 2025 — Abdo Alkser
 See [LICENSE](LICENSE) for full terms.
 
 ---
@@ -236,7 +236,7 @@ Pull requests and issues are welcome!
 Please open an issue first for major changes.
 
 ```bash
-git clone https://github.com/yourusername/GIT-DORKER.git
+git clone https://github.com/alkaserGG/GIT-DORKER.git
 cd GIT-DORKER
 git checkout -b feature/my-improvement
 ```
